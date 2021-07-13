@@ -19,4 +19,17 @@ function chars (letters) {
 console.log(chars(string));
 
 // Function 3
+var elements = ["Hi", "Bye", "Phone", "Eat"];
+
+function wordWithPh (words) {
+    for (var i = 0; i < words.length; i++) {
+        if (words[i].includes("Ph")) {
+            console.log(`The word is ${words[i]}`);
+        } else {
+            console.log(`This is not the word`);
+        }
+    }
+}
+
+wordWithPh(elements);
 
